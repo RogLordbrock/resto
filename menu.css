@@ -1,0 +1,46 @@
+body {
+    background-image: url(b.jpg);
+}
+nav {
+    text-align: center;
+    font-family: sans-serif;
+    color: blue;
+    border-style: solid;
+    border-color: black;
+    background-image: url(b2.jpg);
+}
+#inher {
+    text-shadow: 2px 2px white;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: yellow;
+}
+.salad, .dish {
+    background-color: darkgrey;
+    width: 40%;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+}
+#a {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 300%;
+}
+.dish {
+    position: absolute;
+    left: 58%;
+    top: 30%;
+}
+.salad {
+    position: absolute;
+    top: 30%;
+}
+#in {
+    display: inline-block;
+    padding-right: 10px;
+}

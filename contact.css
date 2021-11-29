@@ -1,0 +1,38 @@
+body {
+    background-image: url(b.jpg);
+}
+nav {
+    text-align: center;
+    font-family: sans-serif;
+    color: blue;
+    border-style: solid;
+    border-color: black;
+    background-image: url(b2.jpg);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: yellow;
+}
+#inher {
+    text-shadow: 2px 2px white;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: black;
+}
+.foorm {
+    background-color: blanchedalmond;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    border-radius: 5%;
+}
+#contact {
+    text-align: center;
+    text-decoration-line: underline;
+}
+form {
+    font-family: Georgia, 'Times New Roman';
+    font: bolder;
+    line-height: 210%;
+    padding-left: 10px;
+}

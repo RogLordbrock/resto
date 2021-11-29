@@ -1,0 +1,99 @@
+Restaurant website :
+
+3 Pages :
+
+Homepage : 
+	body : background image 
+	-<nav> : Home Menu Contact
+		- <div> : background black opacity 0.6
+
+			- h1 : Welcome to restaurant name
+			- h3 italic : small text
+			- h2 uppercase : CALL NUMBER FOR RESERVATION
+			- Button uppercase : Order now!
+		</div>
+
+Menu : 
+	body : background light blue
+	-<nav> : Home Menu FAQ Contact
+	-<div> : background-color: white & width : 600px & color: black
+		- <ul>
+			- li : <img> food image - <h1> title - <h6> -gras(bold)- Prix : XX$ (display: inline - height:50px - border)
+ 			- li : <img> food image - <h1> title - <h6> -gras(bold)- Prix : XX$ (display: inline - height:50px - border)
+			- li : <img> food image - <h1> title - <h6> -gras(bold)- Prix : XX$ (display inline - height:50px - border)
+	</div>
+
+Contact : 
+	body : background light blue
+	<div> : 
+		- h1 uppercase bold italic underline: Nous contacter 
+		
+		<form> : background white
+
+                <div> : display:inline
+                label Full name
+                input type text
+                </div>
+
+                <div> : display:inline
+                label Email
+                input type email
+                </div>
+
+                <div> : display:inline
+                label Age
+                input type number
+                </div>
+
+                <div> : display:inline
+                label Occupation
+                select
+                    option : Worker
+                    option : Student
+                    option : Autre
+                </div>
+
+                <div> : display:inline
+
+                label Familiarisation avec la programmation
+
+                    <div>
+                        label : Trés familier
+                        input type radio
+                    </div>
+
+                    <div>
+                        label : neutre
+                        input type radio
+                    </div>
+
+                    <div>
+                        label : Pas familier
+                        input type radio
+                    </div>
+
+                </div>
+
+
+                <div> : display:inline
+                    label Domaine actuel
+                        <div>
+                            label : Web 1
+                            input type checkbox
+                        </div>
+
+
+                        <div>
+                            label : Web 2
+                            input type checkbox
+                        </div>
+            
+                        <div>
+                            label : Web 3
+                            input type checkbox
+                        </div>
+                
+                </div>
+
+                button : envoyer
+		</form>
